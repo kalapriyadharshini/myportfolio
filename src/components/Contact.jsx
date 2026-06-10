@@ -32,9 +32,9 @@
 
 // <h2>Contact Me</h2>
 
-// <p>Email: yourmail@gmail.com</p>
+// <p>Email: kalapriya32003@gmail.com</p>
 
-// <p>LinkedIn: linkedin.com/in/yourname</p>
+// <p>LinkedIn: linkedin.com/in/kala-priyadharshini-mohandoss</p>
 
 // </section>
 

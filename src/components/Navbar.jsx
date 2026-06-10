@@ -67,7 +67,7 @@ let current = ""
 
 sections.forEach((section)=>{
 
-const sectionTop = section.offsetTop - 100
+const sectionTop = section.offsetTop - 120
 const sectionHeight = section.clientHeight
 
 if(window.scrollY >= sectionTop &&
@@ -93,7 +93,7 @@ return (
 
 <nav className="navbar">
 
-<h2 className="logo">Kala.dev</h2>
+<h2 className="logo">Kpd</h2>
 
 <ul className="nav-links">
 
