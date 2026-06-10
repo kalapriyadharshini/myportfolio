@@ -56,9 +56,9 @@ return(
 
 <div className="contact-box">
 
-<p>Email: yourmail@gmail.com</p>
+<p>Email: kalapriya32003@gmail.com</p>
 
-<p>LinkedIn: linkedin.com/in/yourname</p>
+<p>LinkedIn: linkedin.com/in/kala-priyadharshini-mohandoss</p>
 
 </div>
 
