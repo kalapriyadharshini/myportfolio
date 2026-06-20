@@ -13,7 +13,7 @@ function Education() {
 
         <h2 className="section-title">Education</h2>
 
-        <div className="edu-content">
+        {/* <div className="edu-content">
 
           <h3>Bachelor Of Engineering</h3>
            <p className="edu-stream">Computer Science Engineering</p>
@@ -37,7 +37,44 @@ function Education() {
             I am passionate about building responsive web applications and continuously learning new technologies to grow as a developer.
           </p>
 
-        </div>
+        </div> */}
+        <div className="edu-content">
+
+  <h3>Master Of Business Administration (MBA)</h3>
+
+  <p className="edu-stream">Human Resource Management</p>
+
+  <p>
+    Alagappa University, Karaikudi
+  </p>
+
+  <span>2024 - 2026</span>
+
+  <hr className="edu-divider" />
+
+  <h3>Bachelor Of Engineering</h3>
+
+  <p className="edu-stream">Computer Science Engineering</p>
+
+  <p>
+    Mountzion College of Engineering and Technology, Pudukkottai
+  </p>
+
+  <span>2021 - 2024</span>
+
+  <p className="about-text">
+    I have completed my Bachelor's degree in Computer Science Engineering, where I built a strong foundation in programming and software development.
+
+    <br /><br />
+
+    To enhance my practical skills, I completed a Full Stack Web Development course at Nschool Academy, gaining hands-on experience in technologies like HTML, CSS, JavaScript, React.js, Node.js, and MongoDB.
+
+    <br /><br />
+
+    I am passionate about building responsive web applications and continuously learning new technologies to grow as a developer.
+  </p>
+
+</div>
 
       </motion.div>
 

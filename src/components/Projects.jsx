@@ -93,6 +93,8 @@
 // export default Projects
 
 
+import portfolio from '../assets/portfolio.png';
+import ecommerceimg from '../assets/ecommerceimg.png';
 
 function Projects(){
 
@@ -105,16 +107,34 @@ return(
 <div className="project-grid">
 
 <div className="project-card">
+  <a
+    href="https://myportfolio-alpha-ecru.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+  src={portfolio}
+  alt="Portfolio Website"
+  className="project-img"
+/>
 
-<h3>Portfolio Website</h3>
+    <div className="project-content">
+      <h3>Portfolio Website</h3>
 
-<p>Personal portfolio built with React.</p>
+      <p>
+        Personal portfolio built with React.js and modern UI design.
+      </p>
 
-<button className="btn">View Code</button>
-
+      <div className="project-tags">
+        <span>React</span>
+        <span>CSS</span>
+        <span>Portfolio</span>
+      </div>
+    </div>
+  </a>
 </div>
 
-<div className="project-card">
+{/* <div className="project-card">
 
 <h3>E-commerce Website</h3>
 
@@ -122,6 +142,33 @@ return(
 
 <button className="btn">View Code</button>
 
+</div> */}
+<div className="project-card">
+   <a
+    href="https://voluble-figolla-369912.netlify.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src={ecommerceimg}
+      alt="E-commerce Website"
+      className="project-img"
+    />
+
+    <div className="project-content">
+      <h3>E-commerce Website</h3>
+
+      <p>
+        Full-stack e-commerce platform with product management, cart, wishlist, checkout and order tracking features.
+      </p>
+
+      <div className="project-tags">
+        <span>React</span>
+        <span>Node.js</span>
+        <span>MongoDB</span>
+      </div>
+    </div>
+  </a>
 </div>
 
 </div>

@@ -60,7 +60,7 @@ function Hero() {
 
       <p>I build modern web applications.</p>
 
-      <div className="hero-buttons">
+      {/* <div className="hero-buttons">
 
         <a href="#projects">
           <button className="btn">View Projects</button>
@@ -70,7 +70,28 @@ function Hero() {
           <button className="btn-outline">Download Resume</button>
         </a>
 
-      </div>
+      </div> */}
+      <div className="hero-buttons">
+  <a href="#projects">
+    <button className="btn">View Projects</button>
+  </a>
+
+  {/* <a
+    href="/KALA PRIYADHARSHINI_cv(9)(1).pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="btn-outline">
+      View Resume
+    </button>
+  </a> */}
+
+  <a href="/resume.pdf" download>
+    <button className="btn-outline">
+      Download Resume
+    </button>
+  </a>
+</div>
 
     </section>
 
