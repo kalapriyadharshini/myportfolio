@@ -61,26 +61,39 @@ useEffect(()=>{
 
 const sections = document.querySelectorAll("section")
 
+// const handleScroll = () => {
+
+// let current = ""
+
+// sections.forEach((section)=>{
+
+// const sectionTop = section.offsetTop - 120
+// const sectionHeight = section.clientHeight
+
+// if(window.scrollY >= sectionTop &&
+// window.scrollY < sectionTop + sectionHeight){
+
+// current = section.getAttribute("id")
+
+// }
+
+// })
+
+// setActive(current)
+
+// }
 const handleScroll = () => {
+  let current = ""
 
-let current = ""
+  sections.forEach((section) => {
+    const rect = section.getBoundingClientRect()
 
-sections.forEach((section)=>{
+    if (rect.top <= 150 && rect.bottom >= 150) {
+      current = section.getAttribute("id")
+    }
+  })
 
-const sectionTop = section.offsetTop - 120
-const sectionHeight = section.clientHeight
-
-if(window.scrollY >= sectionTop &&
-window.scrollY < sectionTop + sectionHeight){
-
-current = section.getAttribute("id")
-
-}
-
-})
-
-setActive(current)
-
+  setActive(current)
 }
 
 window.addEventListener("scroll",handleScroll)
