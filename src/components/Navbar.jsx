@@ -88,7 +88,10 @@ const handleScroll = () => {
   sections.forEach((section) => {
     const rect = section.getBoundingClientRect()
 
-    if (rect.top <= 150 && rect.bottom >= 150) {
+    if (
+  rect.top <= window.innerHeight / 2 &&
+  rect.bottom >= window.innerHeight / 2
+) {
       current = section.getAttribute("id")
     }
   })
@@ -121,7 +124,9 @@ return (
 <li>
 <a href="#skills" className={active==="skills" ? "active":""}>Skills</a>
 </li>
-
+<li>
+<a href="#education" className={active==="education" ? "active":""}>Education</a>
+</li>
 <li>
 <a href="#projects" className={active==="projects" ? "active":""}>Projects</a>
 </li>
