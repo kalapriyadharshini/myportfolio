@@ -88,13 +88,18 @@ function Contact() {
         
 
         <div className="contact-links">
-         <a
+         {/* <a
   href="https://mail.google.com/mail/?view=cm&fs=1&to=kalapriya32003@gmail.com"
   target="_blank"
   rel="noopener noreferrer"
   className="contact-link"
 >
-            <FaEnvelope />
+
+            <FaEnvelope /> */}
+            <a href="mailto:kalapriya32003@gmail.com" className="contact-link">
+  <FaEnvelope />
+  <span>Email Me</span>
+</a>
             <span>Email Me</span>
           </a>
 
