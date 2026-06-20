@@ -159,7 +159,7 @@ return(
       <h3>E-commerce Website</h3>
 
       <p>
-        Full-stack e-commerce platform with product management, cart, wishlist, checkout and order tracking features.
+       Dynamic full-stack e-commerce platform featuring product management, shopping cart, wishlist, secure checkout, and order tracking functionality.
       </p>
 
       <div className="project-tags">
