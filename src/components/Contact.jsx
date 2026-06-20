@@ -100,8 +100,7 @@ function Contact() {
   <FaEnvelope />
   <span>Email Me</span>
 </a>
-            <span>Email Me</span>
-          </a>
+           
 
           <a
             href="https://www.linkedin.com/in/kala-priyadharshini-mohandoss"
